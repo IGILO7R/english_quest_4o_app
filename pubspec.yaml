@@ -1,0 +1,33 @@
+name: english_quest_4o
+description: English Quest 4º - MVP (Android, Flutter, UK accent)
+publish_to: 'none'
+version: 0.1.2+3
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.8.3
+  shared_preferences: ^2.2.3
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/content/units.json
+    - assets/images/
+
+# Para icono (opcional; lo puedes ejecutar cuando tengas Flutter local):
+flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: assets/images/icon_shadow.png
